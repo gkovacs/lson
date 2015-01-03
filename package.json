@@ -1,6 +1,6 @@
 {
   "name": "lson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "LiveScript Object Notation Parser",
   "main": "index.js",
   "directories": {
