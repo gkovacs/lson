@@ -2,7 +2,7 @@ require! 'LiveScript'
 CSON = require 'cson-safe'
 
 strip_trailing_semicolon = (str) ->
-  if str[str.length - 1] == ';'
+  if str[*- 1] == ';'
     return str.slice(0, str.length - 1)
   return str
 
