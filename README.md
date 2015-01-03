@@ -1,6 +1,6 @@
 # LSON: LiveScript Object Notation Parser
 
-Same API as the JSON or CSON modules, but for [LiveScript](http://livescript.net/) objects. Also supports CSON and JSON (since LSON is a superset of them).
+Same API as the JSON module, but for [LiveScript](http://livescript.net/) objects. Also supports CSON and JSON (since LSON is a superset of them).
 
 Uses the LiveScript parser to do the actual parsing. Will not execute code.
 
