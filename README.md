@@ -11,6 +11,7 @@ Uses the LiveScript parser to do the actual parsing. Will not execute code.
 ## API
 
 lson.parse: Given a string, outputs an object.
+
 lson.stringify: Given an object, outputs a string. Currently outputs pretty-printed JSON.
 
 ## Example
