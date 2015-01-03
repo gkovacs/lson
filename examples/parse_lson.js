@@ -4,23 +4,4 @@
   lson = require('..');
   parsed = lson.parse('an_array: <[ an array of strings ]>\nanother_array: [\n  \'another\'\n  \'array\'\n]\n# we can even have comments\na_dict: {\n  key: \'value\'\n}\na_string: \'some string\'\nanother_string: \\anotherstring');
   console.log(lson.stringify(parsed));
-  /*
-  {
-    "an_array": [
-      "an",
-      "array",
-      "of",
-      "strings"
-    ],
-    "another_array": [
-      "another",
-      "array"
-    ],
-    "a_dict": {
-      "key": "value"
-    },
-    "a_string": "some string",
-    "another_string": "anotherstring"
-  }
-  */
 }).call(this);

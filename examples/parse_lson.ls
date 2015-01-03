@@ -15,22 +15,3 @@ another_string: \\anotherstring
 ''')
 
 console.log(lson.stringify(parsed))
-/*
-{
-  "an_array": [
-    "an",
-    "array",
-    "of",
-    "strings"
-  ],
-  "another_array": [
-    "another",
-    "array"
-  ],
-  "a_dict": {
-    "key": "value"
-  },
-  "a_string": "some string",
-  "another_string": "anotherstring"
-}
-*/
